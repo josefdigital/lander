@@ -1,0 +1,10 @@
+.footer {
+  @include section-padding();
+  @include section-color($dark-blue, $light-grey);
+  @include header-section(left);
+  &__copyright {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+}

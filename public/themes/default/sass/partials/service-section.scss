@@ -1,0 +1,8 @@
+@import "../variables";
+@import "../mixins/sections";
+
+.service-section {
+  @include section-color($dark-blue, $light-grey);
+  @include section-padding();
+  @include header-section();
+}

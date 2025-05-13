@@ -1,0 +1,47 @@
+{{ define "connect_section" }}
+    <section class="connect-section">
+        <div class="container">
+            <h3>Connect Section</h3>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="connect-section__social-row">
+                        <a href="#" class="connect-section__social-row__icon">
+                            <img src="/static/imgs/twitter.svg" alt="">
+                        </a>
+                        <a href="#" class="connect-section__social-row__icon">
+                            <img src="/static/imgs/linkedin.svg" alt="">
+                        </a>
+                        <a href="#" class="connect-section__social-row__icon">
+                            <img src="/static/imgs/facebook.svg" alt="">
+                        </a>
+                        <a href="#" class="connect-section__social-row__icon">
+                            <img src="/static/imgs/instagram.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="connect-section__email">
+                <div class="connect-section__email__icon">
+                    <img src="/static/imgs/envelope.svg" alt="">
+                </div>
+                <a href="mailto:#">contact@josef.digital</a>
+            </div>
+            <div class="connect-section__subscribe">
+                <p>Subscribe for news letter & get updates from the best services & deals!</p>
+                <div class="connect-section__subscribe__form">
+                    <form action="/emails?subscribe" method="POST">
+                        <input class="form-control" type="email" placeholder="Your Email">
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+           <div class="connect-section__logo">
+               <img src="/static/imgs/Logo-Mobile-Dark.png" alt="">
+           </div> 
+
+        </div>
+    </section>
+{{ end }}

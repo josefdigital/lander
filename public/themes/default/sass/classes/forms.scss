@@ -1,0 +1,5 @@
+@import "../mixins/forms";
+
+.form {
+  @include form();
+}

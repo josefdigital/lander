@@ -1,0 +1,39 @@
+{
+  "name": "single-page",
+  "version": "0.0.1",
+  "description": "Single Page product",
+  "main": "public/ts/index.ts",
+  "scripts": {
+    "sass": "sass --watch public/themes/default/sass/index.scss nottoboard/static/css/styles.css",
+    "webpack": "webpack",
+    "build:watch": "webpack watch --mode development",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joegasewicz/josef.digital.git"
+  },
+  "author": "joegasewicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joegasewicz/josef.digital/issues"
+  },
+  "homepage": "https://github.com/joegasewicz/josef.digital#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.2",
+    "sass": "^1.86.3",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.6",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "boostrap-queries": "^0.2.0",
+    "bootstrap": "^5.3.5",
+    "bootstrap-icons": "^1.11.3",
+    "popper.js": "^1.16.1"
+  }
+}

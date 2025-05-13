@@ -1,0 +1,40 @@
+$bootstrap-icons-font-src: url("../../../../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2") format("woff2"), url("../../../../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff") format("woff");
+@import "../../../../node_modules/bootstrap-icons/font/bootstrap-icons";
+@import "../../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../../node_modules/boostrap-queries/index";
+
+// Variables
+@import "variables";
+
+// Functions
+@import "functions/measurements";
+
+// Mixins
+@import "mixins/sections";
+@import "mixins/cards";
+@import "mixins/buttons";
+@import "mixins/links";
+@import "mixins/forms";
+
+// Classes
+@import "classes/buttons";
+@import "classes/cards";
+@import "classes/links";
+@import "classes/forms";
+
+// Resets
+@import "resets";
+
+// Partials
+@import "partials/navbar";
+@import "partials/footer";
+@import "partials/hero-section";
+@import "partials/info-section";
+@import "partials/product-section";
+@import "partials/what-we-do-section";
+@import "partials/service-section";
+@import "partials/contact-us-section";
+@import "partials/connect-section";
+
+// Routes
+@import "routes/home";

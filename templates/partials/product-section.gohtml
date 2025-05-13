@@ -1,0 +1,27 @@
+{{ define "product_section" }}
+    <section class="product-section">
+        <div class="container">
+            <h3>Product Section</h3>
+            <div class="section-link">
+                <a href="#">See more ></a>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    {{ template "product_card" . }}
+                </div>
+                <div class="col-md-3">
+                    {{ template "product_card" . }}
+                </div>
+                <div class="col-md-3">
+                    {{ template "product_card" . }}
+                </div>
+                <div class="col-md-3">
+                    {{ template "product_card" . }}
+                </div>
+            </div>
+            <div class="section-link section-link--mobile">
+                <a href="#">See more ></a>
+            </div>
+        </div>
+    </section>
+{{ end }}

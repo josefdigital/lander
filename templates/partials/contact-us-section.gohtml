@@ -1,0 +1,24 @@
+{{ define "contact_us_section" }}
+    <section class="contact-us-section">
+        <h3>Contact Us</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                        <form class="form">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" name="name" class="form-control" id="name" aria-describedby="emailHelp">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5"></textarea>
+                                <div class="button-form-fix">
+                                    <button type="submit" class="button button--lg button--block button--dark">Submit</button>
+                                </div>
+                        </form>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </section>
+{{ end }}

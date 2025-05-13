@@ -1,0 +1,78 @@
+@import "../variables";
+
+@mixin section-padding() {
+  padding-top: get-px($default-padding*2);
+  padding-bottom: get-px($default-padding*2);
+  @include screen-medium() {
+    padding-top: get-px($default-padding*3);
+    padding-bottom: get-px($default-padding*3);
+  }
+  @include screen-large() {
+    padding-top: get-px($default-padding*4);
+    padding-bottom: get-px($default-padding*4);
+  }
+}
+
+@mixin section-margin($large-margin: $default-margin*4) {
+  margin-bottom: get-px($default-margin*2);
+  @include screen-medium() {
+    margin-bottom: get-px($default-margin*3);
+  }
+  @include screen-large() {
+    margin-bottom: get-px($large-margin);
+  }
+}
+
+@mixin section-color($color: $dark-blue, $background-color: $white) {
+  color: $color;
+  background-color: $background-color;
+}
+
+@mixin header-section($text-align: center) {
+  h1 {
+    text-align: $text-align;
+    font-size: 39px;
+    @include screen-medium() {
+      font-size: inherit;
+    }
+    @include screen-large() {
+      font-size: inherit;
+    }
+  }
+  h2 {
+    text-align: $text-align;
+  }
+  h3 {
+    text-align: $text-align;
+    @include section-margin();
+    font-size: 23px;
+    @include screen-medium() {
+      font-size: 33px;
+    }
+
+  }
+  h4 {
+    text-align: $text-align;
+    @include section-margin($default-margin*3);
+    font-size: 22px;
+    @include screen-medium() {
+      font-size: 27px;
+    }
+  }
+  p {
+    font-size: 14px;
+    @include screen-medium() {
+      font-size: 16px;
+    }
+  }
+}
+
+@mixin paragraph-section() {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  @include screen-medium() {
+    font-size: 17px;
+    font-weight: 200;
+  }
+}

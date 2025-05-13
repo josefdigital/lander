@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="32px" viewBox="0 0 40 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Fill 161</title>
+    <g id="▶️--Grid" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer" transform="translate(-631.000000, -363.000000)" fill="#34495E">
+            <g id="Email" transform="translate(534.000000, 363.000000)">
+                <path d="M133,0 L101,0 C98.8,0 97.02,1.8 97.02,4 L97,28 C97,30.2 98.8,32 101,32 L133,32 C135.2,32 137,30.2 137,28 L137,4 C137,1.8 135.2,0 133,0 L133,0 Z M133,8 L117,18 L101,8 L101,4 L117,14 L133,4 L133,8 L133,8 Z" id="Fill-161"></path>
+            </g>
+        </g>
+    </g>
+</svg>

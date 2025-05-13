@@ -1,0 +1,5 @@
+github.com/joegasewicz/gomek v0.4.9/go.mod h1:xIA1E1/iQc/4XB+YgiKDYtfH5wmUXRn78DocLH5urGI=
+github.com/joegasewicz/gomek v0.4.11 h1:rdaFbwihPyB0dhtsAQxKQUJDZ4W/otkHdtHWMEVC4Sw=
+github.com/joegasewicz/gomek v0.4.11/go.mod h1:xIA1E1/iQc/4XB+YgiKDYtfH5wmUXRn78DocLH5urGI=
+github.com/joegasewicz/status-writer v1.0.0 h1:cTj5iymQNypLtlIlR3gByLGiBhYsvYZ4rMSdsUlbrHE=
+github.com/joegasewicz/status-writer v1.0.0/go.mod h1:7NiC8jbjB1SxpVURMYsViRZeyQrPEBu/gSEjnwDDw+U=

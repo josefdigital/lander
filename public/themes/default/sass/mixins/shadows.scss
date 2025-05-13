@@ -1,0 +1,6 @@
+@import "../variables";
+@import "../functions/measurements";
+
+@mixin box-shadow() {
+  box-shadow: 0 get-px($default-margin/2) get-px($default-margin) -12px rgba(50,50,93,0.25),0 get-px($default-margin) get-px($default-margin) get-px(-$default-margin) rgba(0,0,0,0.3);
+}

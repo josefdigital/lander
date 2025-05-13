@@ -1,0 +1,26 @@
+@import "../variables";
+@import "../mixins/sections";
+
+
+.info-section {
+  @include section-padding();
+  @include section-color();
+  @include header-section();
+  &__img-wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 8px;
+    height: 281px;
+    @include screen-medium() {
+      height: 450px;
+    }
+    @include screen-large() {
+      height: 565px;
+    }
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include section-margin($default-margin*3);
+  }
+  @include paragraph-section();
+}

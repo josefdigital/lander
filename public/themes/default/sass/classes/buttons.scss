@@ -1,0 +1,12 @@
+@import "../variables";
+@import "../mixins/buttons";
+
+.button {
+  @include button($green, $green-shadow);
+}
+
+.button-form-fix {
+  position: relative;
+  display: block;
+  height: 44px;
+}

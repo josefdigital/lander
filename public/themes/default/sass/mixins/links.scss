@@ -1,0 +1,28 @@
+@import "../variables";
+
+
+@mixin section-detail-link($color: $dark-blue) {
+  width: 100%;
+  margin-bottom: get-px($default-margin);
+  display: none;
+  @include screen-medium() {
+    display: flex;
+  }
+  justify-content: end;
+  a {
+    text-decoration: none;
+    color: $color;
+    font-weight: 600;
+    font-size: 18px;
+    &:hover {
+      color: $blue;
+    }
+  }
+  &--mobile {
+    display: flex;
+    justify-content: center;
+    @include screen-medium() {
+      display: none;
+    }
+  }
+}

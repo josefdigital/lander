@@ -1,0 +1,30 @@
+@import "../variables";
+@import "../mixins/cards";
+
+.product-card {
+  @include card();
+  h5 {
+    color: $blue;
+  }
+  &--hover {
+    &:hover {
+      background: rgba(0, 0, 0, 0.05);
+      box-shadow: none;
+    }
+  }
+}
+
+.what-we-do-card {
+  @include card($light-grey);
+}
+
+.service-card {
+  @include card();
+  h5 {
+    font-size: 20px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+}

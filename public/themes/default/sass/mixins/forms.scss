@@ -1,0 +1,19 @@
+@import "../variables";
+@import "../mixins/shadows";
+@import "../functions/measurements";
+
+
+@mixin form() {
+  background-color: $white;
+  border-radius: get-px($default-border-radius);
+  padding: get-px($default-padding);
+  @include box-shadow();
+  .form-control {
+    margin-bottom: get-px($default-margin);
+  }
+  label {
+    font-size: 16px;
+    font-weight: 400;
+    color: $dark-blue;
+  }
+}

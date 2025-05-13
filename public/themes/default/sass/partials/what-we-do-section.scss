@@ -1,0 +1,12 @@
+@import "../variables";
+@import "../mixins/sections";
+
+.what-we-do-section {
+  @include section-color();
+  @include section-padding();
+  @include header-section();
+  &__details {
+    @include paragraph-section();
+    @include section-margin($default-margin*4);
+  }
+}

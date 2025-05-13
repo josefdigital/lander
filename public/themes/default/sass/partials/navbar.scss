@@ -1,0 +1,17 @@
+@import "../variables";
+
+.navbar {
+  background-color: $dark-blue;
+  a {
+    color: $white;
+    &:hover {
+      color: $grey;
+    }
+  }
+  .navbar-brand {
+    img {
+      width: 134px;
+      height: auto;
+    }
+  }
+}
